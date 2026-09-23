@@ -205,7 +205,7 @@ export default function ResumeModal({ isOpen, onClose }) {
               <h4 className="resume-section-heading">Featured Portfolio Projects</h4>
               <div className="resume-exp-list">
                 <div className="resume-exp-item">
-                  <strong>01. Gig Per Hour</strong> — <span style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Freelancer Marketplace Web &amp; App (Discovery, talent profiles &amp; milestone hiring flow)</span>
+                  <strong>01. Freelance Marketplace</strong> — <span style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Freelancer Marketplace Web &amp; App (Discovery, talent profiles &amp; milestone hiring flow)</span>
                 </div>
                 <div className="resume-exp-item">
                   <strong>02. Ray Consultation</strong> — <span style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Consultation Platform (Verified expert directory, interactive booking &amp; video UX)</span>

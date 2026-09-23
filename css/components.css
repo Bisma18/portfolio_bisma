@@ -213,9 +213,13 @@
 .hero-meta-row {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
   margin-bottom: 24px;
   flex-wrap: wrap;
+}
+
+.hero-meta-row .section-label {
+  margin-bottom: 0;
 }
 
 .status-pill {
@@ -230,6 +234,8 @@
   font-weight: 600;
   color: var(--text-primary);
   box-shadow: var(--shadow-subtle);
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .status-indicator {
@@ -238,6 +244,7 @@
   border-radius: 50%;
   background-color: #2ED573;
   position: relative;
+  flex-shrink: 0;
 }
 
 .status-indicator::after {

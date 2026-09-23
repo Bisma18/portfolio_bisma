@@ -167,6 +167,8 @@ h6 {
   color: var(--text-primary);
   box-shadow: var(--shadow-subtle);
   margin-bottom: 20px;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .section-label .dot {
@@ -174,6 +176,7 @@ h6 {
   height: 6px;
   border-radius: 50%;
   background-color: var(--accent-lime);
+  flex-shrink: 0;
 }
 
 .section-title {
